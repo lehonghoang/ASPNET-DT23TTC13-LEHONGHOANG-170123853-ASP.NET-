@@ -435,15 +435,15 @@ namespace TuyenDungViecLam.Services
                 new Candidate
                 {
                     Id = "1",
-                    Name = "Nguyễn Văn Nam",
-                    Email = "nguyen.nam@email.com",
-                    Phone = "0123456789",
+                    Name = "Lê Hồng Hoàng",
+                    Email = "huyhoangvantuong@gmail.com",
+                    Phone = "0909560783",
                     Avatar = "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
                     Title = "Senior Frontend Developer",
                     Experience = "4 years",
                     Skills = new List<string> { "React", "TypeScript", "Node.js", "MongoDB" },
-                    Education = "Cử nhân Công nghệ thông tin - ĐH Bách khoa Hà Nội",
-                    Resume = "resume_nguyen_nam.pdf"
+                    Education = "Cử nhân Công nghệ thông tin - ĐH TRÀ VINH",
+                    Resume = "resume_Lê_Hoàng.pdf"
                 }
             };
 
