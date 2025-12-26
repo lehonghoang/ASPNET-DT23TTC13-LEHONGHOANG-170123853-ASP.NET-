@@ -30,9 +30,9 @@ namespace TuyenDungViecLam.Controllers
             }
             
             // Kiểm tra tài khoản cố định
-            if (Email == "employer@test.com" && Password == "123456")
+            if (Email == "hoang@test.com" && Password == "12345")
             {
-                HttpContext.Session.SetString("UserEmail", "employer@test.com");
+                HttpContext.Session.SetString("UserEmail", "hoang@test.com");
                 HttpContext.Session.SetString("UserRole", "Employer");
                 return RedirectToAction("Index", "Home");
             }
