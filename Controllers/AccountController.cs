@@ -36,13 +36,13 @@ namespace TuyenDungViecLam.Controllers
                 HttpContext.Session.SetString("UserRole", "Employer");
                 return RedirectToAction("Index", "Home");
             }
-            else if (Email == "candidate@test.com" && Password == "123456")
+            else if (Email == "candidate@test.com" && Password == "12345")
             {
                 HttpContext.Session.SetString("UserEmail", "candidate@test.com");
                 HttpContext.Session.SetString("UserRole", "Candidate");
                 return RedirectToAction("Index", "Home");
             }
-            else if (Email == "admin@test.com" && Password == "123456")
+            else if (Email == "admin@test.com" && Password == "12345")
             {
                 HttpContext.Session.SetString("UserEmail", "admin@test.com");
                 HttpContext.Session.SetString("UserRole", "Admin");
